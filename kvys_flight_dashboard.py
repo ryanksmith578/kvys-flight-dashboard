@@ -23,7 +23,7 @@ kvys_lat, kvys_lon = 41.35, -89.15
 
 aviation_api = "https://aviationweather.gov/adds/dataserver_current/httpparam"
 
-params_metar = {params_metar = 
+params_metar = {
     "dataSource": "metars",
     "requestType": "retrieve",
     "format": "xml",
@@ -32,4 +32,9 @@ params_metar = {params_metar =
     "radialDistance": f"{radius_nm};{station}"
 }
 
-    "dataSource": "metars"
+params_taf = {
+    "dataSource": "tafs",
+    "requestType": "retrieve",
+    "format": "xml",
+    "stationString": station,
+    "hoursBe
