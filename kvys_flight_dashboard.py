@@ -9,7 +9,7 @@ st.set_page_config(page_title="📡 KVYS Flight Weather Dashboard", layout="cent
 
 station = "KVYS"
 radius_nm = 50
-collection_alt_ft = 7500
+collection_alt_ft = 8000
 min_cloud_base_ft = collection_alt_ft + 500
 aviation_api = "https://aviationweather.gov/adds/dataserver_current/httpparam"
 
