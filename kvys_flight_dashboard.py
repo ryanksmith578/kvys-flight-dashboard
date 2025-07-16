@@ -9,7 +9,7 @@ st.set_page_config(page_title="📡 KVYS Flight Weather Dashboard", layout="cent
 
 station = "KVYS"
 radius_nm = 50
-collection_alt_ft = 9000
+collection_alt_ft = 8000
 required_base_msl = collection_alt_ft + 500  # = 8500 MSL
 min_cloud_base_ft = required_base_msl - field_elevation_ft  # 8500 - 650 = 7850 AGL
 
