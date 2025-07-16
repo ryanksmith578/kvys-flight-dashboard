@@ -1,0 +1,14 @@
+name: 🔁 Auto-Ping KVYS Streamlit
+
+on:
+  schedule:
+    - cron: "0 11 * * *"   # 0600 CST
+    - cron: "0 22 * * *"   # 1700 CST
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Curl Streamlit App
+        run: curl -s https://ryanksmith578-kvys-flight-dashboard.streamlit.app
