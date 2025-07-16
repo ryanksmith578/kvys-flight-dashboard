@@ -1,5 +1,6 @@
 streamlit
 folium
 streamlit-folium
-astral
 requests
+geopy
+pytz
